@@ -1,2 +1,2 @@
 # mundo-jojo---projeto-de-estudo
- Estudo
+ Site sobre o anime jojo's bizarre adventure.

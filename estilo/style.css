@@ -35,6 +35,7 @@ header>h1{
     text-align: center;
     font-size: 4em;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+    min-width: 250px;
 }
 
 #p1{

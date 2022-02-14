@@ -22,7 +22,6 @@ body{
 }
 
 header{
-    min-height: 120px;
     background-color: var(--cor02);
     padding-top: 20px;
     padding-bottom: 10px;

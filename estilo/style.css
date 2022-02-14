@@ -1,0 +1,190 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'jojo';
+    src: url('../fontes/SF\ Fedora.ttf') format('truetype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor01: #EB2690;
+    --cor02: #F2BEFD;
+    --cor03: #B61BF6;
+    --cor04: #D4171E;
+    --cor05: #fcf2d7ad;    
+}
+
+body{
+    background-color: var(--cor05);
+}
+
+header{
+    min-height: 120px;
+    background-color: var(--cor02);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.418);
+    position: relative;
+}
+
+header>h1{
+    font-family: 'jojo', sans-serif;
+    color:var(--cor01);
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+}
+
+#p1{
+    font-size: 1.5em;
+    padding-top: 20px;
+    text-align: center;
+    color: var(--cor01);
+    font-family: "Arial", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.349);
+}
+
+#check{
+    display: none;
+}
+
+#icone{
+    cursor: pointer;
+    padding: 12px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 5px;
+    margin-top: 2px;
+    border-radius: 15px;
+    top: 15px;
+    
+}
+
+.menu{
+    background-color: var(--cor01);
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    transition: all .2s linear;
+    left: -300px;
+    min-width: 280px;
+    max-width: 800px;
+    top: 15px;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top:60px;    
+}
+
+nav a{
+    text-decoration: none; 
+}
+
+.link{
+    background-color: white;
+    padding: 15px;
+    transition: all .2s linear;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+    border: 1px solid black;
+    text-align: center;   
+}
+
+.link:hover{
+    background-color: var(--cor01);
+}
+
+#check:checked ~ .menu{
+    transform:translateX(300px);
+    
+}
+
+main{
+    background-color: white;
+    max-width: 800px;
+    min-width: 280px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.418);
+    height: 100%;
+   
+}
+
+main article p{
+    text-align: justify;
+    padding: 10px 0px;
+    font-size: 1.1em;
+    font-family: "Arial", Helvetica, sans-serif;
+    line-height: 2.0em;
+    text-indent: 25px;
+}
+
+main p a{
+    color: black;
+    text-decoration: none;
+    background-color: var(--cor02);
+}
+
+main h1{
+    padding: 10px 0px;
+    font-size: 1.1em;
+    font-family: "Arial Narrow", Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2em;
+    background-image: linear-gradient(to right, #f2befdad, transparent);
+    margin: 10px;
+}
+
+main img{
+    width: 80%;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}   
+footer{
+    background-color: black;
+    position: relative;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+#logojojo{
+    width: 80px;
+}
+
+.externo:after{
+    content: '\1F517';
+}
+
+figcaption{
+    color: rgba(128, 128, 128, 0.774);
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.imgmanga{
+    width: 50% ;
+    display: block; 
+    margin: auto;
+}
+
+ 
+

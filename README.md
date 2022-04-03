@@ -1,4 +1,4 @@
-# mundo-jojo---projeto-de-estudo
+# mundo-jojo-blog
 Jojo's bizarre adventure anime's website.
 Developed by Rômulo Augusto.
 

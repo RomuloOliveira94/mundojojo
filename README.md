@@ -1,5 +1,9 @@
 # mundo-jojo-blog
 Jojo's bizarre adventure anime's website.
+Totally responsive blog.
+
+Techs: HTML, CSS3
+
 Developed by Rômulo Augusto.
 
 https://romulooliveira94.github.io/mundojojo/
